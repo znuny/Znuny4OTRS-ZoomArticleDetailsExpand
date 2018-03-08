@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<otrs_config version="2.0" init="Config">
+    <Setting Name="Loader::Module::AgentTicketZoom###999-Znuny4OTRSZoomArticleDetailsExpand" Required="1" Valid="1">
+        <Description Translatable="1">Loader module registration for AgentTicketZoom.</Description>
+        <Navigation>Frontend::Agent::ModuleRegistration::Loader</Navigation>
+        <Value>
+            <Hash>
+                <Item Key="JavaScript">
+                    <Array>
+                        <Item>Core.Agent.Znuny4OTRSZoomArticleDetailsExpand.js</Item>
+                    </Array>
+                </Item>
+            </Hash>
+        </Value>
+    </Setting>
+</otrs_config>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<otrs_package version="1.0">
+    <Name>Znuny4OTRS-ZoomArticleDetailsExpand</Name>
+    <Version>6.0.1</Version>
+    <ChangeLog Version="6.0.1" Date="2018-03-07 13:44:57 +0100">Initial release for OTRS 6.</ChangeLog>
+    <Framework>6.0.x</Framework>
+    <PackageRequired Version="6.0.15">Znuny4OTRS-Repo</PackageRequired>
+    <Vendor>Znuny GmbH</Vendor>
+    <URL>http://znuny.com/</URL>
+    <License>GNU AFFERO GENERAL PUBLIC LICENSE Version 3, November 2007</License>
+    <Description Lang="en">Automatically expands article details in ticket zoom.</Description>
+    <Description Lang="de">Blendet automatisch Artikeldetails im Ticket-Zoom ein.</Description>
+    <Filelist>
+        <File Permission="660" Location="Kernel/Config/Files/XML/Znuny4OTRSZoomArticleDetailsExpand.xml"/>
+        <File Permission="660" Location="Kernel/Language/de_Znuny4OTRSZoomArticleDetailsExpand.pm"/>
+        <File Permission="660" Location="var/httpd/htdocs/js/Core.Agent.Znuny4OTRSZoomArticleDetailsExpand.js"/>
+    </Filelist>
+</otrs_package>
