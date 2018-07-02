@@ -1,6 +1,6 @@
 ![Znuny logo](http://znuny.com/assets/images/logo_small.png)
 
-Znuny4OTRS-ZoomArticleDetailsExpand-6
+Znuny4OTRS-ZoomArticleDetailsExpand
 =================
 This package automatically displays the item details (sender, subject, etc.) in ticket zoom if only one item is displayed (item display configured as "Show one item" or ticket contains only one item).
 
