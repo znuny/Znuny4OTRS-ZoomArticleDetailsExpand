@@ -15,6 +15,7 @@
     <Filelist>
         <File Permission="660" Location="Kernel/Config/Files/XML/Znuny4OTRSZoomArticleDetailsExpand.xml"/>
         <File Permission="660" Location="Kernel/Language/de_Znuny4OTRSZoomArticleDetailsExpand.pm"/>
+        <File Permission="660" Location="Kernel/Modules/PreApplicationZnuny4OTRSZoomArticleDetailsExpand.pm"/>
         <File Permission="660" Location="var/httpd/htdocs/js/Core.Agent.Znuny4OTRSZoomArticleDetailsExpand.js"/>
     </Filelist>
 </otrs_package>

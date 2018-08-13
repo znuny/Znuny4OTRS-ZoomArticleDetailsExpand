@@ -18,6 +18,7 @@ sub Data {
 
     # SysConfig
     $Self->{Translation}->{'Loader module registration for AgentTicketZoom.'} = 'Loader-Registrierung für AgentTicketZoom.';
+    $Self->{Translation}->{'Registers a PreApplication module that adds js for the package.'} = 'Registriert ein PreApplication Modul um Javascript für das Paket hinzuzufügen.';
 
     return 1;
 }
