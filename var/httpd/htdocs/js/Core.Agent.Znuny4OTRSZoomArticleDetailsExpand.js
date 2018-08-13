@@ -24,8 +24,10 @@ Core.Agent.Znuny4OTRSZoomArticleDetailsExpand = (function (TargetNS) {
         var ArticleDetailsEnabled = true,
             Articles = $('#ArticleItems > div');
 
+        var AllArticlesExpand = Core.Config.Get('Core::Znuny4OTRS::ZoomArticleDetailsExpand::AllArticles') || 0;
+
         // Only automatically show article details if there's only one article.
-        if (Articles.length != 1) {
+        if (Articles.length != 1 && !AllArticlesExpand) {
             return true;
         }
 
@@ -47,8 +49,8 @@ Core.Agent.Znuny4OTRSZoomArticleDetailsExpand = (function (TargetNS) {
             // Don't use click trigger on icon to show article details because it's needed
             // above to recognize a real user click.
             if (ArticleDetailsEnabled) {
-                $('#ArticleItems .WidgetSimple').first().addClass('MenuExpanded');
-                $('#ArticleItems .WidgetMenu').first().css('display', 'block');
+                $('#ArticleItems .WidgetSimple').addClass('MenuExpanded');
+                $('#ArticleItems .WidgetMenu').css('display', 'block');
             }
         });
 

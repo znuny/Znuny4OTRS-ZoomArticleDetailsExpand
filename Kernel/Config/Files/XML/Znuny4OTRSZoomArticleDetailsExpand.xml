@@ -13,4 +13,21 @@
             </Hash>
         </Value>
     </Setting>
+    <Setting Name="PreApplicationModule###PreApplicationZnuny4OTRSZoomArticleDetailsExpand" Required="0" Valid="1">
+        <Description Translatable="1">Registers a PreApplication module that adds js for the package.</Description>
+        <Navigation>Frontend::Agent</Navigation>
+        <Value>
+            <Item ValueType="PerlModule" ValueFilter="Kernel/Modules/*.pm">Kernel::Modules::PreApplicationZnuny4OTRSZoomArticleDetailsExpand</Item>
+        </Value>
+    </Setting>
+    <Setting Name="Core::Znuny4OTRS::ZoomArticleDetailsExpand::AllArticles" Required="1" Valid="1">
+        <Description Translatable="1">This configuration defines if the details will be expanded for the display of the complete article list.</Description>
+        <Navigation>Core::Znuny4OTRS::ZoomArticleDetailsExpand</Navigation>
+        <Value>
+            <Item ValueType="Select" SelectedID="0">
+                <Item ValueType="Option" Value="0" Translatable="1">No</Item>
+                <Item ValueType="Option" Value="1" Translatable="1">Yes</Item>
+            </Item>
+        </Value>
+    </Setting>
 </otrs_config>
