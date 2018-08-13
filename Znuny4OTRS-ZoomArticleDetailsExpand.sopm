@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <otrs_package version="1.0">
     <Name>Znuny4OTRS-ZoomArticleDetailsExpand</Name>
-    <Version>6.0.2</Version>
+    <Version>6.0.3</Version>
+    <ChangeLog Version="6.0.3" Date="2018-08-13 17:13:51 +0200">Added functionality to display item details also for all articles by activating a new sysconfig (#1).</ChangeLog>
     <ChangeLog Version="6.0.2" Date="2018-07-02 13:27:05 +0200">Added english documentation.</ChangeLog>
     <ChangeLog Version="6.0.1" Date="2018-03-08 08:42:20 +0100">Initial release for OTRS 6.</ChangeLog>
     <ChangeLog Version="6.0.1" Date="2018-03-07 13:44:57 +0100">Initial release for OTRS 6.</ChangeLog>
