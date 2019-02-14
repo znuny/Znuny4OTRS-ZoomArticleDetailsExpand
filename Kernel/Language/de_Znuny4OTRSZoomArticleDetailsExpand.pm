@@ -1,5 +1,5 @@
 # --
-# Copyright (C) 2012-2018 Znuny GmbH, http://znuny.com/
+# Copyright (C) 2012-2019 Znuny GmbH, http://znuny.com/
 # --
 # This software comes with ABSOLUTELY NO WARRANTY. For details, see
 # the enclosed file COPYING for license information (AGPL). If you
@@ -18,7 +18,8 @@ sub Data {
 
     # SysConfig
     $Self->{Translation}->{'Loader module registration for AgentTicketZoom.'} = 'Loader-Registrierung für AgentTicketZoom.';
-    $Self->{Translation}->{'Registers a PreApplication module that adds js for the package.'} = 'Registriert ein PreApplication Modul um Javascript für das Paket hinzuzufügen.';
+    $Self->{Translation}->{'Pre-application module to add config settings to Javascript.'} = 'Pre-Application-Modul, welches Konfigurationsoptionen zu Javascript hinzufügt.';
+    $Self->{Translation}->{'Expands details for all articles in complete article list.'} = 'Zeigt Details für alle Artikel in der kompletten Artikelliste an.';
 
     return 1;
 }
