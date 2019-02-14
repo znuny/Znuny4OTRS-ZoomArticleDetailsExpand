@@ -2,7 +2,7 @@
 
 Znuny4OTRS-ZoomArticleDetailsExpand
 =================
-This package automatically displays the item details (sender, subject, etc.) in ticket zoom if only one item is displayed (item display configured as "Show one item" or ticket contains only one item).
+Automatically expands/displays article details (sender, subject, etc.) in ticket zoom.
 
 **Prerequisites**
 
