@@ -1,4 +1,7 @@
-![Znuny logo](http://znuny.com/assets/images/logo_small.png)
+![Znuny logo](https://www.znuny.com/assets/images/logo_small.png)
+
+
+![Build status](https://badge.proxy.znuny.com/Znuny4OTRS-ZoomArticleDetailsExpand/master)
 
 Znuny4OTRS-ZoomArticleDetailsExpand
 =================
