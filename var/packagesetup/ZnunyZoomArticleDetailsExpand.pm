@@ -1,12 +1,12 @@
 # --
-# Copyright (C) 2012-2022 Znuny GmbH, http://znuny.com/
+# Copyright (C) 2012-2022 Znuny GmbH, https://znuny.com/
 # --
 # This software comes with ABSOLUTELY NO WARRANTY. For details, see
 # the enclosed file COPYING for license information (AGPL). If you
 # did not receive this file, see http://www.gnu.org/licenses/agpl.txt.
 # --
 
-package var::packagesetup::Znuny4OTRSZoomArticleDetailsExpand;    ## no critic
+package var::packagesetup::ZnunyZoomArticleDetailsExpand;    ## no critic
 
 use strict;
 use warnings;
@@ -23,7 +23,7 @@ use Kernel::System::VariableCheck qw(:all);
 
 =head1 NAME
 
-var::packagesetup::Znuny4OTRSZoomArticleDetailsExpand - code to execute during package installation
+var::packagesetup::ZnunyZoomArticleDetailsExpand - code to execute during package installation
 
 =head1 SYNOPSIS
 
@@ -35,7 +35,7 @@ All code to execute during package installation
 
 create an object
 
-    my $CodeObject    = $Kernel::OM->Get('var::packagesetup::Znuny4OTRSZoomArticleDetailsExpand');
+    my $CodeObject    = $Kernel::OM->Get('var::packagesetup::ZnunyZoomArticleDetailsExpand');
 
 =cut
 
@@ -122,7 +122,7 @@ sub _DisableConfigOptionArticleHeadVisibleDefault {
 
     my $UserID = 1;
 
-    # Since OTRS 6.0.18 there is a SysConfig option to automatically show article details.
+    # There is a SysConfig option to automatically show article details.
     # When installing this package, this option has to be disabled.
     my $ConfigOptionName          = 'Ticket::Frontend::ArticleHeadVisibleDefault';
     my $ArticleHeadVisibleDefault = $ConfigObject->Get($ConfigOptionName);
@@ -133,7 +133,7 @@ sub _DisableConfigOptionArticleHeadVisibleDefault {
     my $SysConfigOptionSet = $SysConfigObject->SettingsSet(
         UserID => $UserID,
         Comments
-            => 'Disabling Ticket::Frontend::ArticleHeadVisibleDefault on installation of package Znuny4OTRS-ZoomArticleDetailsExpand.',
+            => 'Disabling Ticket::Frontend::ArticleHeadVisibleDefault on installation of package Znuny-ZoomArticleDetailsExpand.',
         Settings => [
             {
                 Name           => $ConfigOptionName,

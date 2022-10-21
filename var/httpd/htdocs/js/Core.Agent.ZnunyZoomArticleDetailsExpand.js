@@ -1,5 +1,5 @@
 // --
-// Copyright (C) 2012-2022 Znuny GmbH, http://znuny.com/
+// Copyright (C) 2012-2022 Znuny GmbH, https://znuny.com/
 // --
 // This software comes with ABSOLUTELY NO WARRANTY. For details, see
 // the enclosed file COPYING for license information (AGPL). If you
@@ -14,16 +14,16 @@ Core.Agent = Core.Agent || {};
 
 /**
  * @namespace
- * @exports TargetNS as Core.Agent.Znuny4OTRSZoomArticleDetailsExpand
+ * @exports TargetNS as Core.Agent.ZnunyZoomArticleDetailsExpand
  * @description
- *      This namespace contains the special functions for Znuny4OTRSZoomArticleDetailsExpand.
+ *      This namespace contains the special functions for ZnunyZoomArticleDetailsExpand.
  */
-Core.Agent.Znuny4OTRSZoomArticleDetailsExpand = (function (TargetNS) {
+Core.Agent.ZnunyZoomArticleDetailsExpand = (function (TargetNS) {
 
     TargetNS.Init = function () {
         var ArticleDetailsExpanded = true,
             Articles = $('#ArticleItems > div'),
-            AllArticlesExpand = Core.Config.Get('Core::Znuny4OTRS::ZoomArticleDetailsExpand::AllArticles') || 0;
+            AllArticlesExpand = Core.Config.Get('Core::Znuny::ZoomArticleDetailsExpand::AllArticles') || 0;
 
         // Only automatically show article details if there's only one article.
         if (Articles.length != 1 && !AllArticlesExpand) {
@@ -40,8 +40,8 @@ Core.Agent.Znuny4OTRSZoomArticleDetailsExpand = (function (TargetNS) {
             // Because OTRS creates new elements after clicking an article in the ticket zoom article list,
             // it's necessary to recreate the trigger for possible new element.
             $InfoToggle
-                .off('click.Znuny4OTRSZoomArticleDetailsExpand')
-                .on('click.Znuny4OTRSZoomArticleDetailsExpand', function () {
+                .off('click.ZnunyZoomArticleDetailsExpand')
+                .on('click.ZnunyZoomArticleDetailsExpand', function () {
                     ArticleDetailsExpanded = !ArticleDetailsExpanded;
                 });
 
@@ -74,4 +74,4 @@ Core.Agent.Znuny4OTRSZoomArticleDetailsExpand = (function (TargetNS) {
     Core.Init.RegisterNamespace(TargetNS, 'APP_MODULE');
 
     return TargetNS;
-}(Core.Agent.Znuny4OTRSZoomArticleDetailsExpand || {}));
+}(Core.Agent.ZnunyZoomArticleDetailsExpand || {}));
