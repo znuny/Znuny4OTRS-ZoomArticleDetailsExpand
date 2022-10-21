@@ -3,18 +3,17 @@
 
 ![Build status](https://badge.proxy.znuny.com/Znuny4OTRS-ZoomArticleDetailsExpand/master)
 
-Znuny4OTRS-ZoomArticleDetailsExpand
+Znuny-ZoomArticleDetailsExpand
 =================
 Automatically expands/displays article details (sender, subject, etc.) in ticket zoom.
 
 **Prerequisites**
 
-- [Znuny4OTRS-Repo](https://www.znuny.com/add-ons/znuny4otrs-repository)
-- OTRS 6
+- Znuny 6.4
 
 **Installation**
 
-Download the [package](https://addons.znuny.com/api/addon_repos/public/1166/latest) and install it via admin interface -> package manager or use [Znuny4OTRS-Repo](https://www.znuny.com/add-ons/znuny4otrs-repository).
+Download the [package](https://addons.znuny.com/api/addon_repos/public/2585/latest) and install it via admin interface -> package manager.
 
 **Configuration**
 
@@ -22,7 +21,7 @@ No further configuration required.
 
 **Download**
 
-Download the [latest version](https://addons.znuny.com/api/addon_repos/public/1166/latest).
+Download the [latest version](https://addons.znuny.com/api/addon_repos/public/2585/latest).
 
 **Commercial Support**
 
