@@ -2,6 +2,12 @@
 <otrs_package version="1.0">
     <Name>Znuny-ZoomArticleDetailsExpand</Name>
     <Version>6.4.0</Version>
+    <Framework>6.4.x</Framework>
+    <Vendor>Znuny GmbH</Vendor>
+    <URL>http://znuny.com/</URL>
+    <License>GNU AFFERO GENERAL PUBLIC LICENSE Version 3, November 2007</License>
+    <Description Lang="en">Automatically expands article details in ticket zoom.</Description>
+    <Description Lang="de">Blendet automatisch Artikeldetails im Ticket-Zoom ein.</Description>
     <ChangeLog Version="6.0.8" Date="2021-02-12 17:46:35 +0100">Happy new year. Tidied code.</ChangeLog>
     <ChangeLog Version="6.0.7" Date="2020-04-07 18:04:48 +0200">Tidied code.</ChangeLog>
     <ChangeLog Version="6.0.6" Date="2019-04-17 15:55:53 +0200">Issue #2: Made package compatible with new SysConfig option Ticket::Frontend::ArticleHeadVisibleDefault of OTRS 6.0.18.</ChangeLog>
@@ -11,12 +17,6 @@
     <ChangeLog Version="6.0.2" Date="2018-07-02 13:27:05 +0200">Added english documentation.</ChangeLog>
     <ChangeLog Version="6.0.1" Date="2018-03-08 08:42:20 +0100">Initial release for OTRS 6.</ChangeLog>
     <ChangeLog Version="6.0.1" Date="2018-03-07 13:44:57 +0100">Initial release for OTRS 6.</ChangeLog>
-    <Framework>6.4.x</Framework>
-    <Vendor>Znuny GmbH</Vendor>
-    <URL>http://znuny.com/</URL>
-    <License>GNU AFFERO GENERAL PUBLIC LICENSE Version 3, November 2007</License>
-    <Description Lang="en">Automatically expands article details in ticket zoom.</Description>
-    <Description Lang="de">Blendet automatisch Artikeldetails im Ticket-Zoom ein.</Description>
     <Filelist>
         <File Permission="660" Location="Kernel/Config/Files/XML/ZnunyZoomArticleDetailsExpand.xml"/>
         <File Permission="660" Location="Kernel/Language/de_ZnunyZoomArticleDetailsExpand.pm"/>
