@@ -21,6 +21,7 @@
         <File Permission="660" Location="Kernel/Config/Files/XML/ZnunyZoomArticleDetailsExpand.xml"/>
         <File Permission="660" Location="Kernel/Language/de_ZnunyZoomArticleDetailsExpand.pm"/>
         <File Permission="660" Location="Kernel/Modules/PreApplicationZnunyZoomArticleDetailsExpand.pm"/>
+        <File Permission="660" Location="scripts/test/ZnunyZoomArticleDetailsExpand/var/packagesetup/ZnunyZoomArticleDetailsExpand.t"/>
         <File Permission="660" Location="var/httpd/htdocs/js/Core.Agent.ZnunyZoomArticleDetailsExpand.js"/>
         <File Permission="660" Location="var/packagesetup/ZnunyZoomArticleDetailsExpand.pm"/>
     </Filelist>
