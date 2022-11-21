@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <otrs_package version="1.0">
     <Name>Znuny-ZoomArticleDetailsExpand</Name>
-    <Version>6.4.0</Version>
+    <Version>6.4.1</Version>
     <Framework>6.4.x</Framework>
     <Vendor>Znuny GmbH</Vendor>
     <URL>http://znuny.com/</URL>
     <License>GNU AFFERO GENERAL PUBLIC LICENSE Version 3, November 2007</License>
     <Description Lang="en">Automatically expands article details in ticket zoom.</Description>
     <Description Lang="de">Blendet automatisch Artikeldetails im Ticket-Zoom ein.</Description>
+    <ChangeLog Version="6.4.1" Date="2022-11-21 13:45:16 +0100">Initial release for Znuny 6.4.</ChangeLog>
     <ChangeLog Version="6.0.8" Date="2021-02-12 17:46:35 +0100">Happy new year. Tidied code.</ChangeLog>
     <ChangeLog Version="6.0.7" Date="2020-04-07 18:04:48 +0200">Tidied code.</ChangeLog>
     <ChangeLog Version="6.0.6" Date="2019-04-17 15:55:53 +0200">Issue #2: Made package compatible with new SysConfig option Ticket::Frontend::ArticleHeadVisibleDefault of OTRS 6.0.18.</ChangeLog>
@@ -53,5 +54,5 @@
         &lt;br&gt;
         The Znuny default configuration option &lt;strong&gt;Ticket::Frontend::ArticleHeadVisibleDefault&lt;/strong&gt; will be disabled on installation of the package because the function behind it is incompatible with that of this package. The functionality of this package is more extensive than that of the standard Znuny function so there are no disadvantages.
     </IntroUpgrade>
-    <PackageMerge Name="Znuny4OTRS-ZoomArticleDetailsExpand" TargetVersion="6.1.0"></PackageMerge>
+    <PackageMerge Name="Znuny4OTRS-ZoomArticleDetailsExpand" TargetVersion="6.1.0"/>
 </otrs_package>
