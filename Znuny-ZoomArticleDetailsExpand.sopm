@@ -43,7 +43,7 @@
         &lt;br&gt;
         Die Znuny-Standard-Konfigurationsoption &lt;strong&gt;Ticket::Frontend::ArticleHeadVisibleDefault&lt;/strong&gt; wird bei Installation des Pakets deaktiviert, da die dahinterstehende Funktion inkompatibel zu der dieses Pakets ist. Die Funktionalität dieses Pakets ist umfangreicher als die der Standard-Znuny-Funktion, so dass keinerlei Nachteile entstehen.
     </IntroInstall>
-    <IntroInstall Lang="en" Title="Informationen zur Installation" Type="pre">
+    <IntroInstall Lang="en" Title="Installation Information" Type="pre">
         &lt;br&gt;
         The Znuny default configuration option &lt;strong&gt;Ticket::Frontend::ArticleHeadVisibleDefault&lt;/strong&gt; will be disabled on installation of the package because the function behind it is incompatible with that of this package. The functionality of this package is more extensive than that of the standard Znuny function so there are no disadvantages.
     </IntroInstall>
@@ -51,7 +51,7 @@
         &lt;br&gt;
         Die Znuny-Standard-Konfigurationsoption &lt;strong&gt;Ticket::Frontend::ArticleHeadVisibleDefault&lt;/strong&gt; wird bei Installation des Pakets deaktiviert, da die dahinterstehende Funktion inkompatibel zu der dieses Pakets ist. Die Funktionalität dieses Pakets ist umfangreicher als die der Standard-Znuny-Funktion, so dass keinerlei Nachteile entstehen.
     </IntroUpgrade>
-    <IntroUpgrade Lang="en" Title="Informationen zur Installation" Type="pre">
+    <IntroUpgrade Lang="en" Title="Installation Information" Type="pre">
         &lt;br&gt;
         The Znuny default configuration option &lt;strong&gt;Ticket::Frontend::ArticleHeadVisibleDefault&lt;/strong&gt; will be disabled on installation of the package because the function behind it is incompatible with that of this package. The functionality of this package is more extensive than that of the standard Znuny function so there are no disadvantages.
     </IntroUpgrade>
