@@ -19,8 +19,6 @@ our @ObjectDependencies = (
     'Kernel::System::ZnunyHelper',
 );
 
-use Kernel::System::VariableCheck qw(:all);
-
 =head1 NAME
 
 var::packagesetup::ZnunyZoomArticleDetailsExpand - code to execute during package installation
