@@ -10,13 +10,12 @@ package Kernel::Modules::PreApplicationZnunyZoomArticleDetailsExpand;
 
 use strict;
 use warnings;
+use utf8;
 
 our @ObjectDependencies = (
     'Kernel::Config',
     'Kernel::Output::HTML::Layout',
 );
-
-use Kernel::System::VariableCheck qw(:all);
 
 sub new {
     my ( $Type, %Param ) = @_;
