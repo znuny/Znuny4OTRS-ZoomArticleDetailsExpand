@@ -1,7 +1,7 @@
 ![Znuny logo](https://www.znuny.com/assets/images/logo_small.png)
 
 
-![Build status](https://badge.proxy.znuny.com/Znuny4OTRS-ZoomArticleDetailsExpand/rel-7_1)
+![Build status](https://badge.proxy.znuny.com/Znuny4OTRS-ZoomArticleDetailsExpand/rel-7_2)
 
 Znuny-ZoomArticleDetailsExpand
 =================
@@ -9,7 +9,7 @@ Automatically expands/displays article details (sender, subject, etc.) in ticket
 
 **Prerequisites**
 
-- Znuny 7.1
+- Znuny 7.2
 
 **Installation**
 
