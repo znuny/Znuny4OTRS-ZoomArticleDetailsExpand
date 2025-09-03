@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <otrs_package version="1.0">
     <Name>Znuny-ZoomArticleDetailsExpand</Name>
-    <Version>7.1.1</Version>
+    <Version>7.2.1</Version>
     <Framework>7.2.x</Framework>
     <Vendor>Znuny GmbH</Vendor>
     <URL>http://znuny.com/</URL>
     <License>GNU AFFERO GENERAL PUBLIC LICENSE Version 3, November 2007</License>
     <Description Lang="en">Automatically expands article details in ticket zoom.</Description>
     <Description Lang="de">Blendet automatisch Artikeldetails im Ticket-Zoom ein.</Description>
+    <ChangeLog Version="7.2.1" Date="2025-09-03 07:52:45 +0200">Initial release for Znuny 7.2.</ChangeLog>
     <ChangeLog Version="7.1.1" Date="2024-08-21 21:56:17 +0200">Initial release for Znuny 7.1.</ChangeLog>
     <ChangeLog Version="6.5.2" Date="2024-08-19 14:07:00 +0200">Fixed translation.</ChangeLog>
     <ChangeLog Version="6.5.1" Date="2023-02-20 13:14:45 +0100">Migration to 6.5.</ChangeLog>
