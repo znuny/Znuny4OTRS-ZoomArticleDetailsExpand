@@ -129,7 +129,7 @@ sub _DisableConfigOptionArticleHeadVisibleDefault {
     return 1 if !$ArticleHeadVisibleDefault;
 
     my $SysConfigOptionSet = $SysConfigObject->SettingsSet(
-        UserID => $UserID,
+        UserID   => $UserID,
         Comments =>
             'Disabling Ticket::Frontend::ArticleHeadVisibleDefault on installation of package Znuny-ZoomArticleDetailsExpand.',
         Settings => [
